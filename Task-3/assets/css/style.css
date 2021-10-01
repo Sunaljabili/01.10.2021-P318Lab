@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cart-programmings {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid #808080;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.cart-programmings:hover {
+  background-color: #d5c455;
+}
+
+.cart-programmings:hover i {
+  color: white;
+}
+
+.cart-programmings:hover h2 {
+  color: white;
+}
+
+.cart-programmings:hover p {
+  color: white;
+}
+
+.cart-programmings i {
+  font-size: 50px;
+  color: salmon;
+}

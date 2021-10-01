@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.square .css {
+  margin: 20px;
+  width: 80px;
+  height: 50px;
+  background-color: gray;
+  text-align: center;
+  padding-top: 13px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.square .css i {
+  color: yellow;
+}
+
+.square .css:hover {
+  border: 2px solid orange;
+  background-color: green;
+  -webkit-transform: rotate(180deg) scale(2);
+          transform: rotate(180deg) scale(2);
+  color: white;
+}
+
+.square .css:hover i {
+  color: red;
+}
